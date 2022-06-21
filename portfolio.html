@@ -11,22 +11,23 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-     <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <div class="container">
-    <body>
-      <!-- Шапка страницы -->
-          <header class="page-header">
+  <body>
+    <!-- Шапка страницы -->
+    <header class="page-header">
       <div class="container header-container">
         <a href="./index.html" class="logo-header"> <span class="logo-part">Web</span>Studio</a>
         <nav class="nav">
           <ul class="header-list list">
-            <li class="nav-list"><a href="./index.html" class="nav-link current">Студия</a></li>
-            <li class="nav-list"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+            <li class="nav-list"><a href="./index.html" class="nav-link">Студия</a></li>
+            <li class="nav-list">
+              <a href="./portfolio.html" class="nav-link current">Портфолио</a>
+            </li>
             <li class="nav-list"><a href="" class="nav-link">Контакты</a></li>
           </ul>
         </nav>
@@ -37,90 +38,115 @@
         </div>
       </div>
     </header>
-      <main>
-        <!--Фильтр-->
-        <section class="portfolio section">
-          <div class="container">
+    <main>
+      <!--Фильтр-->
+      <section class="portfolio section">
+        <div class="container">
           <h1 hidden>Портфолио</h1>
-          <ul class="list filter-container" >
-            <li class="filter-link"><button type="button" class="btn-portfolio accent">Все</button></li>
-            <li class="filter-link"><button type="button" class="btn-portfolio">Веб-сайты</button></li>
-            <li class="filter-link"><button type="button" class="btn-portfolio">Приложения</button></li>
+          <ul class="list filter-container">
+            <li class="filter-link">
+              <button type="button" class="btn-portfolio accent">Все</button>
+            </li>
+            <li class="filter-link">
+              <button type="button" class="btn-portfolio">Веб-сайты</button>
+            </li>
+            <li class="filter-link">
+              <button type="button" class="btn-portfolio">Приложения</button>
+            </li>
             <li class="filter-link"><button type="button" class="btn-portfolio">Дизайн</button></li>
-            <li class="filter-link"><button type="button" class="btn-portfolio">Маркетинг</button></li>
-            </div>
+            <li class="filter-link">
+              <button type="button" class="btn-portfolio">Маркетинг</button>
+            </li>
           </ul>
           <!--Портфолио-->
           <ul class="list portfolio-container">
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg1.jpg" alt="Фото сайта" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title">Технокряк</h2>
-                <p>Веб-сайт</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p>Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg2.jpg" alt="Два баскетболиста" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title">
-                  Постер <span lang="en">New Orlean vs Golden Star</span>
-                </h2>
-                <p>Дизайн</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h2>
+                  <p>Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg3.jpg" alt="Логотип ресторана" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
-                <p>Приложение</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
+                  <p>Приложение</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg4.jpg" alt="Наушники" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title">Проект <span lang="en">Prime</span></h2>
-                <p>Маркетинг</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Проект <span lang="en">Prime</span></h2>
+                  <p>Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg5.jpg" alt="Коробки" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title">Проект <span lang="en">Boxes</span></h2>
-                <p>Приложение</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Проект <span lang="en">Boxes</span></h2>
+                  <p>Приложение</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg6.jpg" alt="Монитор" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title" lang="en">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title" lang="en">Inspiration has no Borders</h2>
+                  <p>Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg7.jpg" alt="Фото журнала" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title">Издание <span lang="en">Limited Edition</span></h2>
-                <p>Дизайн</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Издание <span lang="en">Limited Edition</span></h2>
+                  <p>Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg8.jpg" alt="Фото бирки" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
-                <p>Маркетинг</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
+                  <p>Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
               <a href="" class="portfolio-link">
                 <img src="./images/Pimg9.jpg" alt="Фото ноутбука" width="370" />
-                <div class="portfolio-wrapper"><h2 class="portfolio-title" lang="en">Growing Business</h2>
-                <p>Приложение</p></div>
+                <div class="portfolio-wrapper">
+                  <h2 class="portfolio-title" lang="en">Growing Business</h2>
+                  <p>Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
-         </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
     <!-- Футер -->
 
     <footer class="footer">
